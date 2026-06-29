@@ -60,9 +60,9 @@ shiny::runApp()
 
 ## 구현 내용
 
-Shiny 기반 UI와 서버 로직을 구성하고, `quantmod`를 활용해 Yahoo Finance에서 주가 데이터를 불러오도록 구현했습니다. `TTR` 패키지로 RSI와 볼린저밴드를 계산했으며, `plotly`를 사용해 인터랙티브 캔들차트를 제작했습니다.
+Shiny 기반 UI와 서버 로직을 구성하고 `quantmod`를 활용해 Yahoo Finance에서 주가 데이터를 불러오도록 구현했습니다. `TTR` 패키지로 RSI와 볼린저밴드를 계산했으며, `plotly`를 사용해 인터랙티브 캔들차트를 제작했습니다.
 
-또한 `htmlwidgets::onRender()`를 사용해 JavaScript 기능을 연결하고, 사용자가 차트 위에 직접 선을 그렸을 때 해당 구간의 수익률이 자동으로 표시되도록 구현했습니다.
+또한 `htmlwidgets::onRender()`를 사용해 JavaScript 기능을 연결하고 사용자가 차트 위에 직접 선을 그렸을 때 해당 구간의 수익률이 자동으로 표시되도록 구현했습니다.
 
 ## 배운 점
 
